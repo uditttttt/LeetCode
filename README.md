@@ -8,13 +8,13 @@ LeetCode is a platform for enhancing your programming skills and preparing for t
 
 ## Daily Uploads
 
-I commit to solving and uploading a new problem every day. This not only helps me stay consistent in my practice but also allows me to document my progress and share my thought process with others.
+I commit to solving and uploading a new problem every day. This practice helps me stay consistent, improve my Java coding skills, and document my progress. Through this repository, I share my thought process and approach to solving these problems.
 
 ## Repository Structure
 
 Each folder in this repository corresponds to a specific problem. Inside, you'll find the following:
 
-- `solution.cpp`: The C++ code for my solution.
+- `Solution.java`: My Java implementation for the problem.
 
 ## How to Use This Repository
 
