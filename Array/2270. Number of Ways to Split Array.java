@@ -1,4 +1,20 @@
- 
+class Solution {
+    public int waysToSplitArray(int[] nums) {
+        long totalSum = 0;
+        for(int i=0; i<nums.length; i++){
+            totalSum += nums[i];
+        }
+        long preSum = 0;
+        int count=0;
+        for(int i=0; i<nums.length-1; i++){
+            preSum += nums[i];
+            long suffSum = totalSum - preSum;
+            if(preSum >= suffSum) count++;
+        }
+
+        return count;
+    }
+} 
 
 class Solution {
     public int waysToSplitArray(int[] nums) {
