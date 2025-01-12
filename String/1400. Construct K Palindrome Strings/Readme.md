@@ -1,13 +1,12 @@
 1. Structure of a Palindrome
-A palindrome reads the same forward and backward.
-To construct a palindrome:
-Characters with even frequencies can always be perfectly mirrored around the center.
-Characters with odd frequencies cannot be mirrored completely; one of them must occupy the center.
-For example:
+   A palindrome reads the same forward and backward.
+   To construct a palindrome:
+   Characters with even frequencies can always be perfectly mirrored around the center.
+   Characters with odd frequencies cannot be mirrored completely; one of them must occupy the center.
+   For example:
 
 "abba": All characters (a and b) have even frequencies (2 each).
-"abcba": The character c has an odd frequency (1), so it occupies the center.
-2. Impact of Odd Frequencies
+"abcba": The character c has an odd frequency (1), so it occupies the center. 2. Impact of Odd Frequencies
 Characters with odd frequencies cannot pair up completely. Each such character requires a separate palindrome center.
 If there are n characters with odd frequencies:
 At least n palindromes are required because each odd-frequency character needs its own palindrome center.
@@ -21,8 +20,7 @@ c: Frequency = 3 (odd)
 Odd-frequency characters = 2 (a and c).
 At least 2 palindromes are required:
 Palindrome 1: "aba"
-Palindrome 2: "ccc"
-3. Relation to k Palindromes
+Palindrome 2: "ccc" 3. Relation to k Palindromes
 To partition the string into exactly k palindromes:
 
 Minimum Palindromes:
@@ -32,8 +30,7 @@ If k < oddCount, it's impossible to create k palindromes.
 Maximum Palindromes:
 
 The number of palindromes cannot exceed the length of the string (s.length()), because each character can form at most one palindrome.
-If k > s.length(), it's impossible to create k palindromes.
-4. Key Insight
+If k > s.length(), it's impossible to create k palindromes. 4. Key Insight
 The number of odd-frequency characters determines the minimum number of palindromes required, because:
 
 Each odd-frequency character contributes at least one palindrome.
@@ -66,8 +63,3 @@ The rule arises directly from the structural requirements of palindromes:
 Each odd-frequency character demands at least one separate palindrome.
 Thus, if oddCount > k, it's impossible to partition the string into k palindromes.
 Conversely, if oddCount <= k, it's always possible by appropriately grouping even-frequency characters.
-
-
-
-
-
