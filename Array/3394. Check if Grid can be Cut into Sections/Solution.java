@@ -61,3 +61,4 @@ class Solution {
       return r2.length >= 3; // Return true if there are 3+ disjoint y-intervals
   }
 }
+
