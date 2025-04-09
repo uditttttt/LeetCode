@@ -24,6 +24,4 @@ Feel free to browse through the problems and check out my solutions. If you're w
 
 If you have any suggestions or improvements, please open an issue or submit a pull request. I'm always looking to improve and would appreciate your input!
 
-
-
 Happy coding !
