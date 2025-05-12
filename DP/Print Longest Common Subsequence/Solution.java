@@ -1,3 +1,4 @@
+// coding ninja
 public class Solution {
     public static String findLCS(int n, int m, String s1, String s2){
         // Create a 2D DP table to store LCS lengths for substrings of s1 and s2
