@@ -6,8 +6,9 @@ If problem says:
 then immediately think:
 🚀 Prefix Sum + HashMap
 
-*/
 
+*/
+import java.util.*;
 
 class Solution {
     public int longestSubarray(int[] arr, int k) {
